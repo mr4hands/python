@@ -1,2 +1,5 @@
 def my_print(text):
-    print("this is the text", text)
+    return "this is the text"
+
+def my_fix(text):
+    print("this is the fixed text:",text.upper())
